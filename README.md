@@ -164,9 +164,12 @@ Translation works between any supported pair.
 
 | Plan | Credits | Billing |
 |---|---|---|
-| Free | 60 | One-time trial |
-| Pro | 500/week or 2,000/month | Recurring |
-| Ultra | 2,500/week or 10,000/month | Recurring |
+| Community | 0 (subscription required) | Free forever |
+| Pro | 2,000/month | Monthly |
+| Ultra | 10,000/month | Monthly |
+| Global Agency | 10,000/month + add-on packs | Monthly |
+
+Caption Credits are pay-as-you-go top-ups on top of any paid subscription (Pro, Ultra, Global Agency). Starter pack (1k credits), Creator pack (5k), Agency pack (20k) — purchase from the [Captions page](https://tik.tools/captions).
 
 [Get an API key →](https://tik.tools/pricing)
 
