@@ -1,7 +1,7 @@
 {
     "name": "@tiktool/captions",
-    "version": "1.0.0",
-    "description": "TikTok Live Captions — Real-Time Speech-to-Text Transcription & Multi-Language Translation for TikTok LIVE Streams",
+    "version": "1.0.1",
+    "description": "TikTok Live Captions - Real-Time Speech-to-Text Transcription & Multi-Language Translation for TikTok LIVE Streams",
     "author": "tiktool",
     "license": "MIT",
     "keywords": [
