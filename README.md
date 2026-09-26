@@ -8,15 +8,17 @@ Agency rank feeds in Discord: gaming ranks, creator ranks and 99+ movers across 
 
 # @tiktool/captions
 
-### TikTok Live Captions - Real-Time Speech-to-Text Transcription & Translation
+> **Deprecated for new users.** The Live Captions service is no longer offered to new customers, and this package is not recommended for new projects. Existing caption customers can keep using it with their current account. For free captions on a stream, use TikTok native captions: the `caption` event on the standard LIVE WebSocket in [`tiktok-live-api`](https://www.npmjs.com/package/tiktok-live-api).
+
+### TikTok Live Captions client (legacy)
 
 [![npm version](https://img.shields.io/npm/v/@tiktool/captions.svg)](https://www.npmjs.com/package/@tiktool/captions)
 [![npm downloads](https://img.shields.io/npm/dm/@tiktool/captions.svg)](https://www.npmjs.com/package/@tiktool/captions)
 [![license](https://img.shields.io/npm/l/@tiktool/captions.svg)](https://github.com/tiktool/captions/blob/main/LICENSE)
 
-Turn any TikTok livestream into real-time text. Transcription + translation + speaker identification. Works with any language. Zero config.
+Client for the legacy Live Captions service, kept for existing caption customers.
 
-> **This package re-exports the captions module from [`@tiktool/live`](https://www.npmjs.com/package/@tiktool/live).** If you also need chat, gifts, viewers, or battle events, install `@tiktool/live` instead - it includes everything.
+> **This package re-exports the captions module from [`@tiktool/live`](https://www.npmjs.com/package/@tiktool/live).** For chat, gifts, viewers, or battle events, use `@tiktool/live` or `tiktok-live-api`.
 
 ---
 
@@ -157,29 +159,6 @@ Auto-detection works out of the box. No config needed.
 Supported: Chinese, English, Korean, Japanese, Spanish, French, German, Portuguese, Russian, Arabic, Hindi, Thai, Vietnamese, Indonesian, Turkish, Italian, Dutch, Polish, Swedish, Greek, Czech, Romanian, Hungarian, Finnish, Danish, Norwegian, Hebrew, Malay, Filipino, Ukrainian, Bengali, Tamil, Telugu, Marathi, Gujarati, Kannada, Malayalam, Punjabi, Urdu, Persian, and more.
 
 Translation works between any supported pair.
-
----
-
-## Credits
-
-1 credit = 1 minute of audio in 1 language.
-
-| Scenario | Credits used |
-|---|---|
-| 10 min transcription only | 10 |
-| 10 min + translation to 1 language | 20 |
-| 10 min + translation to 2 languages | 30 |
-
-| Plan | Credits | Billing |
-|---|---|---|
-| Community | 0 (subscription required) | Free forever |
-| Pro | 2,000/month | Monthly |
-| Ultra | 10,000/month | Monthly |
-| Global Agency | 10,000/month + add-on packs | Monthly |
-
-Caption Credits are pay-as-you-go top-ups on top of any paid subscription (Pro, Ultra, Global Agency). Starter pack (1k credits), Creator pack (5k), Agency pack (20k) - purchase from the [Captions page](https://tik.tools/captions).
-
-[Get an API key](https://tik.tools/pricing)
 
 ---
 
