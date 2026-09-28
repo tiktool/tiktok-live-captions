@@ -1,29 +1,28 @@
+// The caption client lives in @tiktool/live 2.6.x; later majors dropped it when
+// Live Captions became a legacy service, so the dependency is pinned below 2.7.
 export { TikTokCaptions } from '@tiktool/live';
 
 export type {
     TikTokCaptionsOptions,
-    TikTokCaptionsEventMap,
-    CaptionEvent,
-    TranslationEvent,
-    CreditsEvent,
-    ErrorEvent,
+    TikTokCaptionsEvents,
+    CaptionData,
+    TranslationData,
+    CaptionCredits,
+    CaptionError,
+    CaptionStatus,
 } from '@tiktool/live';
 
 import type {
-    TikTokCaptionsEventMap,
-    CaptionEvent,
-    TranslationEvent,
-    CreditsEvent,
-    ErrorEvent,
+    TikTokCaptionsEvents,
+    CaptionData,
+    TranslationData,
+    CaptionCredits,
+    CaptionError,
 } from '@tiktool/live';
 
-// Backward-compatible aliases for the pre-1.0.1 export names.
-export type TikTokCaptionsEvents = TikTokCaptionsEventMap;
-export type CaptionData = CaptionEvent;
-export type TranslationData = TranslationEvent;
-export type CaptionCredits = CreditsEvent;
-export type CaptionError = ErrorEvent;
-
-// Connection/caption lifecycle status. Kept as a local type since the upstream
-// package no longer exports a dedicated status type.
-export type CaptionStatus = 'idle' | 'connecting' | 'active' | 'stopped' | 'error';
+// Aliases for the names 1.0.1 and 1.0.2 exported.
+export type TikTokCaptionsEventMap = TikTokCaptionsEvents;
+export type CaptionEvent = CaptionData;
+export type TranslationEvent = TranslationData;
+export type CreditsEvent = CaptionCredits;
+export type ErrorEvent = CaptionError;
