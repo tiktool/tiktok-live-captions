@@ -4,7 +4,7 @@
   </a>
 </p>
 
-Agency rank feeds in Discord: gaming ranks, creator ranks and 99+ movers across all 30 regions, copy-paste usernames for backstage. /ranks to start (Global Agency).
+Agency rank feeds in Discord: gaming ranks, creator ranks and 99+ movers across all 30 regions, copy-paste usernames for backstage. /ranks to start (Agency).
 
 # @tiktool/captions
 
@@ -165,16 +165,16 @@ Translation works between any supported pair.
 ## Pricing (USD)
 | Tier | Weekly | Monthly |
 |------|--------|---------|
-| Sandbox / Free | $0 | $0 |
+| Sandbox (free 7-day evaluation) | - | - |
 | Basic | $7 | $19 |
 | Pro | $15 | $49 |
 | Ultra | $45 | $149 |
-| Global Agency | $119 | $399 |
+| Agency | $119 | $399 |
 
 Full pricing + checkout: https://tik.tools/pricing
 
 ## Tiers
-Tier ladder (each includes everything below it): Sandbox -> Basic -> Pro -> Ultra -> Global Agency. Sandbox is free with reduced rate limits + masked identifiers on intelligence endpoints; paid tiers raise limits and unmask data. Outgoing webhooks need Basic+. The agency intelligence endpoints (gaming ranks, movers, eligible-creator finder, gifter intel) need Global Agency.
+Tier ladder (each includes everything below it): Sandbox -> Basic -> Pro -> Ultra -> Agency. Sandbox is a free 7-day evaluation counted from account creation (20 req/min, 5,000 req/day, 3 concurrent WebSockets, 60 new connects/hour, 2 hours per WebSocket connection) with masked identifiers on intelligence endpoints, after which a paid plan is required; paid tiers raise limits and unmask data. Outgoing webhooks need Basic+. The agency intelligence endpoints (gaming ranks, movers, eligible-creator finder, gifter intel) need Agency.
 
 ## Endpoints and required tier
 | Endpoint | Min tier |
@@ -217,20 +217,20 @@ Tier ladder (each includes everything below it): Sandbox -> Basic -> Pro -> Ultr
 | GET /webcast/gifts_by_country | Ultra |
 | GET /api/leaderboards/leagues/:region | Ultra |
 | GET /api/leaderboards/league/:region/:classType | Ultra |
-| GET /webcast/ranklist/gaming | Global Agency |
-| GET /webcast/ranklist/gaming_movers | Global Agency |
-| GET /webcast/ranklist/region_movers | Global Agency |
-| GET /webcast/eligible_creators | Global Agency |
-| GET /api/gifters/top | Global Agency |
-| GET /api/gifters/leaderboard | Global Agency |
-| GET /api/gifters/profile | Global Agency |
+| GET /webcast/ranklist/gaming | Agency |
+| GET /webcast/ranklist/gaming_movers | Agency |
+| GET /webcast/ranklist/region_movers | Agency |
+| GET /webcast/eligible_creators | Agency |
+| GET /api/gifters/top | Agency |
+| GET /api/gifters/leaderboard | Agency |
+| GET /api/gifters/profile | Agency |
 
 Full docs with request/response shapes and examples: https://tik.tools/docs
 
 ## What you get
 **Creators**: real-time live events (gifts, chat, viewers), your own live status + room info, earnings + analytics, signed CDN/stream URLs that do not expire.
 **Developers**: drop-in signing (works as a tiktok-live-connector backend - point the sign base at api.tik.tools), one-WebSocket fan-out (your IP never touches TikTok), bulk live checks, leaderboards, webhooks (HMAC-signed live.start/live.end and more), SDKs across languages.
-**Agencies (Global Agency)**: TikTok LIVE gaming ranks + creator ranks + 99+ movers across all 30 regions, eligible-creator recruiting finder, gifter intelligence (top gifters, profiles, leaderboards), and the Discord bot that posts copy-paste username batches for backstage.
+**Agencies (Agency plan)**: TikTok LIVE gaming ranks + creator ranks + 99+ movers across all 30 regions, eligible-creator recruiting finder, gifter intelligence (top gifters, profiles, leaderboards), and the Discord bot that posts copy-paste username batches for backstage.
 
 ---
 
