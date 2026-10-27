@@ -1,6 +1,6 @@
 {
     "name": "@tiktool/captions",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Deprecated for new users. Legacy TikTok Live Captions client for existing caption customers; the service is no longer offered to new customers.",
     "author": "tiktool",
     "license": "MIT",
@@ -39,7 +39,7 @@
         "LICENSE"
     ],
     "scripts": {
-        "build": "tsup",
+        "build": "tsup && node strip-comments.mjs dist",
         "prepublishOnly": "npm run build"
     },
     "dependencies": {
