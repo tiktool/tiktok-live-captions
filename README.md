@@ -13,7 +13,6 @@ Agency rank feeds in Discord: gaming ranks, creator ranks and 99+ movers across 
 ### TikTok Live Captions client (legacy)
 
 [![npm version](https://img.shields.io/npm/v/@tiktool/captions.svg)](https://www.npmjs.com/package/@tiktool/captions)
-[![npm downloads](https://img.shields.io/npm/dm/@tiktool/captions.svg)](https://www.npmjs.com/package/@tiktool/captions)
 [![license](https://img.shields.io/npm/l/@tiktool/captions.svg)](https://github.com/tiktool/captions/blob/main/LICENSE)
 
 Client for the legacy Live Captions service, kept for existing caption customers.
