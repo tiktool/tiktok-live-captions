@@ -1,6 +1,6 @@
 {
     "name": "@tiktool/captions",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Deprecated for new users. Legacy TikTok Live Captions client for existing caption customers; the service is no longer offered to new customers.",
     "author": "tiktool",
     "license": "MIT",
@@ -13,10 +13,10 @@
     "homepage": "https://tik.tools/docs#captions",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tiktool/captions.git"
+        "url": "git+https://github.com/tiktool/tiktok-live-captions.git"
     },
     "bugs": {
-        "url": "https://github.com/tiktool/captions/issues"
+        "url": "https://github.com/tiktool/tiktok-live-captions/issues"
     },
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
